@@ -4,23 +4,20 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "lerna run dev --stream"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/thirusaro/devcontainer.git"
+    "url": "git+https://github.com/thirusaro/dress-shop.git"
   },
-  "keywords": [
-    "dress",
-    "shop"
-  ],
-  "author": "Saravana kumar",
+  "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/thirusaro/devcontainer/issues"
+    "url": "https://github.com/thirusaro/dress-shop/issues"
   },
-  "homepage": "https://github.com/thirusaro/devcontainer#readme",
+  "homepage": "https://github.com/thirusaro/dress-shop#readme",
   "devDependencies": {
-    "eslint": "^7.32.0"
+    "lerna": "^4.0.0"
   }
 }
