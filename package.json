@@ -1,0 +1,26 @@
+{
+  "name": "dress-shop",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thirusaro/devcontainer.git"
+  },
+  "keywords": [
+    "dress",
+    "shop"
+  ],
+  "author": "Saravana kumar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/thirusaro/devcontainer/issues"
+  },
+  "homepage": "https://github.com/thirusaro/devcontainer#readme",
+  "devDependencies": {
+    "eslint": "^7.32.0"
+  }
+}
