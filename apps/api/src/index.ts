@@ -10,3 +10,12 @@ app.get('/', (req, res) => {
 app.listen(port, () => {
   console.log(`Example app listening at http://localhost:${port}`);
 })
+
+interface person{
+  name: string,
+  age: number
+}
+
+let person: person = { name: "saravana", age: 23 }
+
+
