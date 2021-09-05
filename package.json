@@ -10,7 +10,7 @@
     "eslint:fix": "eslint --fix --ext ts,tsx .",
     "prettier": "prettier --check .",
     "prettier:fix": "prettier --write .",
-    "lint": "npm-run-all -p eslint",
+    "lint": "npm-run-all -p eslint prettier",
     "lint:fix": "npm-run-all -p eslint:fix prettier:fix"
   },
   "repository": {
