@@ -13,7 +13,7 @@ const Home: NextPage = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className={styles.main}>
-        <h3>h1i</h3>
+        <h3>hi123</h3>
       </main>
 
       <footer className={styles.footer}>
