@@ -16,7 +16,12 @@
   "settings": {},
 
   // Add the IDs of extensions you want installed when the container is created.
-  "extensions": ["ms-azuretools.vscode-docker", "vscode-icons-team.vscode-icons", "esbenp.prettier-vscode"]
+  "extensions": [
+    "ms-azuretools.vscode-docker",
+    "dbaeumer.vscode-eslint",
+    "vscode-icons-team.vscode-icons",
+    "esbenp.prettier-vscode"
+  ]
 
   // Use 'forwardPorts' to make a list of ports inside the container available locally.
   // "forwardPorts": [],
