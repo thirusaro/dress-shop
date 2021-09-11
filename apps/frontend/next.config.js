@@ -7,5 +7,8 @@ module.exports = {
       aggregateTimeout: 300
     };
     return config;
+  },
+  eslint: {
+    dirs: ['src']
   }
 };
