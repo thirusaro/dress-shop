@@ -1,7 +1,8 @@
 import React from 'react';
+import { Grid } from '@mui/material';
 
 const Footer = () => {
-  return <div>footer</div>;
+  return <Grid container sx={{ mx: 12 }}>footer</Grid>
 };
 
 export default Footer;

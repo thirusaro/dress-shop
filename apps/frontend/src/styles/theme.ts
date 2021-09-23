@@ -1,6 +1,5 @@
-import { createTheme } from '@material-ui/core/styles';
-import purple from '@material-ui/core/colors/purple';
-import green from '@material-ui/core/colors/green';
+import { createTheme } from '@mui/material';
+import { green, purple } from '@mui/material/colors';
 import MyriadProRegularWoff2 from './fonts/MyriadPro-Regular.woff2';
 import MyriadProRegularWoff from './fonts/MyriadPro-Regular.woff';
 import MyriadProBoldWoff2 from './fonts/MyriadPro-Bold.woff2';
@@ -40,20 +39,22 @@ const myriadProSemibold = {
 };
 
 const theme = createTheme({
+  spacing: 4,
   palette: {
     primary: {
-      main: purple[500]
+      main: '#9e9e9e'
     },
     secondary: {
       main: green[500]
     }
   },
   typography: {
-    fontFamily: 'myriad-pro, Arial'
+    fontFamily: 'myriad-pro, Arial',
+    fontSize: 16
   },
-  overrides: {
+  components: {
     MuiCssBaseline: {
-      '@global': {
+      styleOverrides: {
         '@font-face': [myriadProRegular, myriadProBold, myriadProSemibold]
       }
     }

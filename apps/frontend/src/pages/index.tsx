@@ -1,4 +1,4 @@
-import type {NextPage} from 'next';
+import type { NextPage } from 'next';
 import Page from '../components/Page';
 import React from 'react';
 

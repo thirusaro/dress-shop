@@ -1,10 +1,10 @@
-import React, {PropsWithChildren} from 'react';
+import React, { PropsWithChildren } from 'react';
 import Head from 'next/head';
 import Header from './Header';
 import Footer from './Footer';
 import NavBar from './NavBar';
 import Content from './Content';
-import {Grid} from '@material-ui/core';
+import { Grid } from '@mui/material';
 
 export interface PageProps {
   title: string;

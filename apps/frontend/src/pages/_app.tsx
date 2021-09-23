@@ -1,10 +1,9 @@
 import React from 'react';
-import type {AppProps} from 'next/app';
-import ThemeProvider from '@material-ui/styles/ThemeProvider';
+import type { AppProps } from 'next/app';
+import { ThemeProvider, CssBaseline } from '@mui/material';
 import theme from '../styles/theme';
-import {CssBaseline} from '@material-ui/core';
 
-function MyApp({Component, pageProps}: AppProps) {
+function MyApp({ Component, pageProps }: AppProps) {
   return (
     <ThemeProvider theme={theme}>
       <CssBaseline />

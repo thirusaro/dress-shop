@@ -1,11 +1,14 @@
 import React, { PropsWithChildren } from 'react';
+import { Grid } from '@mui/material';
 
 export interface ContentProps {}
 
 const Content = (props: PropsWithChildren<ContentProps>) => {
   return (
     <main>
-      <div>{props.children}</div>
+      <Grid container sx={{ mx: 12 }}>
+        {props.children}
+      </Grid>
     </main>
   );
 };
